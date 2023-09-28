@@ -1,0 +1,88 @@
+.quote-banner {
+    background: white;
+    color: #333;
+    font-family: Suisse Regular,sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0;
+    opacity: 1;
+    display: block;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 50px;
+}
+.quote-container {
+    color: #333;
+    font-family: Suisse Regular,sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0;
+    opacity: 1;
+
+}
+.quote-base {
+    border-top: 2px solid black;
+    font-family: Suisse Regular,sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0;
+    color: #333;
+    padding: 100px 40px;
+
+}
+.quote-wrapper {
+    font-family: Suisse Regular,sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    box-sizing: border-box;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+
+
+
+.quote {
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: Zapf Humanist,serif;
+    padding: 0;
+    margin: 0 0 20px;
+    font-weight: 400;
+    line-height: 1.33;
+    text-size-adjust: 100%;
+    font-size: 1.875rem;
+}.cite {
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 2;
+    font-family: Suisse,sans-serif;
+    font-size: .875rem;
+}
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+    .quote-banner {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .quote-base {
+        padding: 50px 10px;
+    }
+}

@@ -1,0 +1,95 @@
+.banner {
+    background-image: url("../assets/bannerImg.webp");
+    background-size:cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    /* align-items: center; */
+  }
+
+  .logo {
+    /* position:absolute; */
+    margin-top:0;
+    padding: 0;
+  }
+  .logo h2 {
+    margin-top:0;
+    font-size: 40px;
+    color: white;
+  }
+  
+  .banner-content {
+    margin-left: 30px;
+    margin-top: 70px;
+    gap: 80px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 600px;
+    align-items: flex-start;
+  }
+  .sub-title {
+    margin-top:3px;
+  }
+
+  .sub-title p{
+    font-weight: 500;
+    color: white;
+  }
+
+  .description h2 {
+    color: white;
+    font-size: 30px;
+  }
+  
+  
+  .benefits {
+    color: white;
+  }
+  
+  .btn-container {
+    margin-top: 40px;
+  }
+  
+  
+  .btn {
+    background:transparent;
+    height: 60px;
+    width: 300px;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    display: flex; /* Use flex display to control content alignment */
+    justify-content: space-between; /* Space between text and arrow */
+    align-items: center; /* Center content vertically */
+    cursor: pointer;
+    /* transition: background-color 0.3s; */
+    text-decoration: none;
+  }
+  
+  .btn span {
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+
+
+  @media only screen and  (max-width: 768px) and (min-width:330px) {
+    .banner-content {
+      margin: 0;
+      gap: 0;
+      flex-direction: column;
+    }
+    .btn {
+      width: 200px;
+    }
+    .benefits p {
+      font-size: 15px;
+    }
+  }
+  

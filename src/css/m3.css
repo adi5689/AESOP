@@ -1,0 +1,151 @@
+/* m1.css */
+
+/* Styling for the container */
+.carousel-container-2 {
+    border-top: 0.1px solid black; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    /* padding: 20px; */
+    padding-right: 0;
+    height: 600px;
+    background-color: #ffffff; /* Set your desired background color */
+  }
+  
+  /* Styling for the left content */
+  .left-content-2 {
+    padding-top: 0;
+    padding-left: 50px;
+    text-align: left;
+    width: 100%;
+    max-width: 700px;
+  }
+  .left-content-2 p{
+    margin-top: 25px;
+  }
+  
+  .left-content-2 h2 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Set your desired text color */
+  }
+  
+  .left-content-2 h3 {
+    font-size: 18px;
+    color: #666; /* Set your desired text color */
+  }
+  
+  /* Styling for the right content */
+  .right-content-2 {
+    /* flex: 2; */
+    /* padding: 20px; */
+    right: 0;
+    margin-left: 25px;
+    margin-right: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  /* Styling for the buttons */
+  .carousel-buttons-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .prev-button-2,
+  .next-button-2 {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #000000; 
+    color: #ffffff; 
+    border: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .prev-button-2:hover,
+  .next-button-2:hover {
+    background-color: #2b2b2c; /* Set your desired button background color on hover */
+  }
+  
+  /* Styling for the slider */
+  .slick-list-2 {
+    width: 100%;
+    max-width: 600px;
+    /* height: 800px; */
+    margin: 30px;
+  }
+  
+  .carousel-slide-2 {
+    border: none;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Set your desired slide background color */
+  }
+  
+  .carousel-slide-2 img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    max-height: 300px; /* Set your desired maximum height */
+    margin: 0 auto 10px; /* Center the image and add spacing */
+  }
+  
+  .carousel-slide-2 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-slide-2 h3 {
+    font-size: 16px;
+    color: #777; /* Set your desired text color */
+  }
+  .slick-list-2 h2 {
+    margin-top: 60px;
+  }
+  .slick-list-2 h2:hover {
+    text-decoration: underline;
+  }
+  
+  .carousel-slide-2 a {
+    text-decoration: none;
+    color: #007bff; /* Set your desired link color */
+  }
+  
+  .carousel-slide-2 a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+  @media only screen and (min-width: 0px) and (max-width: 640px) {
+
+  .carousel-container-2 {
+    flex-direction: column;
+    height: 950px;
+    padding-top: 0;
+    padding: 5px;
+
+ 
+  }
+  .left-content-2 {
+    padding: 50px 20px;
+  }
+  .right-content-2 {
+    width: 320px;
+    margin-left: 0;
+  }
+  .prev-button-2, .next-button-2 {
+    padding: 0;
+    margin: 0;
+    width: 50px;
+  }
+}
+  

@@ -1,0 +1,34 @@
+.offer-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer1 {
+    padding: 5px;
+    background-color:blanchedalmond;
+}
+ .offer1 p {
+    margin: 0;
+ }
+
+ .offer2 {
+    padding: 5px;
+ }
+ .offer2 p {
+    margin: 0;
+    color: white;
+ }
+
+ @media only screen and  (max-width: 768px) and (min-width:330px) {
+
+ .offer1 p {
+   font-size: 14px;
+ }
+ .offer1 p strong {
+   font-size: 15px;
+ }
+ .offer2 p {
+   font-size: 14px;
+ }
+ }

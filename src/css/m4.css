@@ -1,0 +1,108 @@
+*{
+    box-sizing: none; 
+}
+     
+.m4-container {
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    padding: 26px 0 0 100px;
+    gap: 410px;
+    background: white;
+}
+
+.right-side-2 {
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    padding: 100px 50px;
+    padding-left: 0;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+p {
+    margin-top: 30px;
+}
+ .right-btn {
+    margin-top: 30px;
+    width: 300px;
+    height: 60px;
+    text-align: left;
+    border: 1px inset #000;
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+    justify-content: space-between; 
+    background: transparent;
+    padding: 10px 20px;
+    font-size: 16px;
+ }
+ .right-btn span {
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  
+  .right-btn:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+
+ 
+.left-side-2 {
+    width: 800px; 
+    height: 560px; 
+    overflow: hidden; 
+    padding: 100px 50px 0 0;
+    padding-right: 0;
+}
+
+
+.left-side-2 img {
+    width: 100%;
+    height: auto; /* Adjusted height to maintain aspect ratio */
+    max-height: 700px;
+    object-fit: cover;
+    object-position: right;
+    color: #333;
+    font-family: 'Suisse Regular', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: inherit;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+    .m4-container {
+        flex-direction: column-reverse;
+        padding: 5px;
+        gap: 0;
+        height: 750px;
+
+    }
+    .right-side-2 {
+        padding: 50px 20px;
+    }
+    .left-side-2 img{
+        width: 300px;
+    }
+    .left-side-2 {
+        overflow: unset;
+        width: 330px;
+        padding-top: 20px;
+    }
+    .right-btn {
+        width: 200px;
+        padding: 0px 10px;
+        font-size: 12px;
+    }
+}
